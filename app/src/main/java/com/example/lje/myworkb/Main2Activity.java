@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
-
+//
 public class Main2Activity extends FragmentActivity {
     int flag = 1;
     private Toast toast;

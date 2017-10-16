@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 /**
  * Created by LJE on 2017-10-14.
  */
-
+//
 public class Fragment2 extends Fragment {
     @Nullable
     @Override

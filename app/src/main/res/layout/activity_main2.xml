@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/rootContainer"
     tools:context="com.example.lje.myworkb.Main2Activity">
-
+//
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
