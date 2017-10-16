@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lje.myworkb.MainActivity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TabHost
+        android:layout_width="0dp"
+        android:layout_height="391dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="2dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="337dp"
+            android:layout_height="492dp"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="설문조사"
+                        android:textSize="28dp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                    />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="좋아하는 요일을 선택하시오"
+                        android:textSize="24dp"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Monday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+
+                    />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tuesday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wednesday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Thursday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Friday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saturday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sunday"
+                        android:textColor="#ff11ff10"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButton2Clicked"
+                        android:text="CHOOSE" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="설문조사"
+                        android:textSize="28dp"
+                        android:textAlignment="center"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="좋아하는 과일을 선택하시오."
+                        android:textSize="24dp"/>
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButton3Clicked"
+                        android:text="CHOOSE" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</android.support.constraint.ConstraintLayout>

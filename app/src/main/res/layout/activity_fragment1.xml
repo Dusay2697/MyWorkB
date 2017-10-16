@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lje.myworkb.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="556dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="126dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2B" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="216230052" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="이정은" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="161dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/th"
+        android:onClick="onButton1Clicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:srcCompat="@drawable/th"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
