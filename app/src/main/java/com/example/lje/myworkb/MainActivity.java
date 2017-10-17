@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 
 import java.util.ArrayList;
-//
+
 public class MainActivity extends TabActivity {//tabhost을 사용할때는 TabActivity
     Fragment1 a;
     private Toast toast;
