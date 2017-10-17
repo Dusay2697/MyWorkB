@@ -77,12 +77,12 @@ public class MainActivity extends TabActivity {//tabhost을 사용할때는 TabA
     //Toast
     public void onButton2Clicked(View v){
 
-        toast = Toast.makeText(this, "요일을 선택하였습니다.", Toast.LENGTH_LONG);}
+        toast = Toast.makeText(this, "요일을 선택하였습니다.", Toast.LENGTH_LONG).show();}
 
     //Toast
     public void onButton3Clicked(View v){
 
-        toast = Toast.makeText(this, "과일을 선택하였습니다.", Toast.LENGTH_LONG);}
+        toast = Toast.makeText(this, "과일을 선택하였습니다.", Toast.LENGTH_LONG).show();}
 
     //Scene클래스
     public void goToScene2 (View view){//이 메소드는 두 장면 간의 전환을 수행한다.
