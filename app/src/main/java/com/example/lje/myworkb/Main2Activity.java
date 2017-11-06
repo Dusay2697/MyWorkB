@@ -78,21 +78,7 @@ public class Main2Activity extends FragmentActivity {
 
 
 
-   //Toast
-    public void onClick(View view) {
-        switch (view.getId()) {
-
-            case R.id.buttonShow: {
-                toast.show();
-                break;
-
-            }
-            case R.id.buttonCancel: {
-                toast.cancel();
-                break;
-            }
-        }
-    }
+ 
 
     //Scene클래스
     public void goToScene2 (View view){//이 메소드는 두 장면 간의 전환을 수행한다.
