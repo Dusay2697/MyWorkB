@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 
 public class Fragment1 extends Fragment {
+    private Toast toast;
+    
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -18,4 +20,11 @@ public class Fragment1 extends Fragment {
 
 
     }
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+
+        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG);
+    }
+
 }
