@@ -24,7 +24,7 @@ public class Fragment1 extends Fragment {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG);
+        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG).show();
     }
 
 }
