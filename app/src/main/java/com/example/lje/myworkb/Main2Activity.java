@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 public class Main2Activity extends FragmentActivity {
     int flag = 1;
-    private Toast toast;
     ViewGroup rootContainer;
     Scene scene1;
     Scene scene2;
@@ -52,10 +51,6 @@ public class Main2Activity extends FragmentActivity {
 
 
     }
-    //Toast
-    public void onButton1Clicked(View v){
-
-        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG).show();}
 
     public void onFragment(View v) {
         Fragment fragment;
