@@ -6,7 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.Toast;
 
 
 public class Fragment2 extends Fragment {
@@ -18,8 +18,14 @@ public class Fragment2 extends Fragment {
 
         return inflater.inflate(R.layout.activity_fragment2,container,false);//인플레이터:XML에서 만든 화면을 단말기에서 볼수있게 해주는 메소드
 
-
+        
     }
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+
+        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG).show();
+     }
     //Toast
     public void onClick(View view) {
         switch (view.getId()) {
