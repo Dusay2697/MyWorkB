@@ -55,7 +55,7 @@ public class Main2Activity extends FragmentActivity {
     //Toast
     public void onButton1Clicked(View v){
 
-        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG);}
+        toast = Toast.makeText(this, "간단한 앱을 완성하였습니다", Toast.LENGTH_LONG).show();}
 
     public void onFragment(View v) {
         Fragment fragment;
